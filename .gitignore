@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data files — too large for GitHub
+data/*.csv
+data/*.db
+.ipynb_checkpoints/
