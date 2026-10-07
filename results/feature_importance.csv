@@ -1,0 +1,13 @@
+feature,importance_type,importance,std
+exclamation_count,impurity,0.2236,
+email_length,impurity,0.6321,
+urgency_score,impurity,0.0667,
+url_count,impurity,0.0483,
+bait_score,impurity,0.0216,
+has_ip_url,impurity,0.0077,
+exclamation_count,permutation (test set),0.1785,0.0059
+email_length,permutation (test set),0.1031,0.0124
+urgency_score,permutation (test set),0.0557,0.0056
+url_count,permutation (test set),0.0397,0.0056
+bait_score,permutation (test set),0.0135,0.0025
+has_ip_url,permutation (test set),0.0066,0.0015

@@ -1,0 +1,4 @@
+model,evasive_caught,evasive_total,evasive_recall,overall_phishing_recall
+A: Handcrafted features + Random Forest,304,574,0.5296,0.6377
+B: TF-IDF + Logistic Regression,549,574,0.9564,0.9695
+"B2: TF-IDF + LR, artifacts removed",536,574,0.9338,0.9497

@@ -1,0 +1,13 @@
+Email Type,feature,mean,median,pct_nonzero
+Phishing Email,bait_score,0.2396,0.0,10.5095
+Phishing Email,email_length,1698.1164,764.0,100.0
+Phishing Email,exclamation_count,3.43,1.0,60.4179
+Phishing Email,has_ip_url,0.0241,0.0,2.41
+Phishing Email,urgency_score,0.5288,0.0,29.3624
+Phishing Email,url_count,0.8337,0.0,37.889
+Safe Email,bait_score,0.0961,0.0,4.3177
+Safe Email,email_length,2005.9343,1021.0,100.0
+Safe Email,exclamation_count,0.6347,0.0,22.2536
+Safe Email,has_ip_url,0.0005,0.0,0.0547
+Safe Email,urgency_score,0.1662,0.0,10.2569
+Safe Email,url_count,1.2674,0.0,41.6925

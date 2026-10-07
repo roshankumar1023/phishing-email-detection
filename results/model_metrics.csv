@@ -1,0 +1,31 @@
+model,metric,value
+A: Handcrafted features + Random Forest,precision,0.6526
+B: TF-IDF + Logistic Regression,precision,0.9815
+"B2: TF-IDF + LR, artifacts removed",precision,0.9803
+A: Handcrafted features + Random Forest,recall,0.6377
+B: TF-IDF + Logistic Regression,recall,0.9695
+"B2: TF-IDF + LR, artifacts removed",recall,0.9497
+A: Handcrafted features + Random Forest,f1,0.6451
+B: TF-IDF + Logistic Regression,f1,0.9754
+"B2: TF-IDF + LR, artifacts removed",f1,0.9647
+A: Handcrafted features + Random Forest,accuracy,0.7377
+B: TF-IDF + Logistic Regression,accuracy,0.9818
+"B2: TF-IDF + LR, artifacts removed",accuracy,0.9741
+A: Handcrafted features + Random Forest,cv_f1_mean,0.6334
+B: TF-IDF + Logistic Regression,cv_f1_mean,0.9706
+"B2: TF-IDF + LR, artifacts removed",cv_f1_mean,0.9591
+A: Handcrafted features + Random Forest,cv_f1_std,0.0222
+B: TF-IDF + Logistic Regression,cv_f1_std,0.0031
+"B2: TF-IDF + LR, artifacts removed",cv_f1_std,0.0017
+A: Handcrafted features + Random Forest,true_negatives,1751.0
+B: TF-IDF + Logistic Regression,true_negatives,2172.0
+"B2: TF-IDF + LR, artifacts removed",true_negatives,2171.0
+A: Handcrafted features + Random Forest,false_positives,445.0
+B: TF-IDF + Logistic Regression,false_positives,24.0
+"B2: TF-IDF + LR, artifacts removed",false_positives,25.0
+A: Handcrafted features + Random Forest,false_negatives,475.0
+B: TF-IDF + Logistic Regression,false_negatives,40.0
+"B2: TF-IDF + LR, artifacts removed",false_negatives,66.0
+A: Handcrafted features + Random Forest,true_positives,836.0
+B: TF-IDF + Logistic Regression,true_positives,1271.0
+"B2: TF-IDF + LR, artifacts removed",true_positives,1245.0

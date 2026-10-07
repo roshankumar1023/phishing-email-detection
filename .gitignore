@@ -223,3 +223,4 @@ __marimo__/
 data/*.csv
 data/*.db
 .ipynb_checkpoints/
+.DS_Store

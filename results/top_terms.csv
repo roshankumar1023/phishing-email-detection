@@ -1,0 +1,81 @@
+model,direction,rank,term,weight,is_artifact
+B: TF-IDF + Logistic Regression,phishing,1,click,4.9274,False
+B: TF-IDF + Logistic Regression,phishing,2,free,4.338,False
+B: TF-IDF + Logistic Regression,phishing,3,money,3.9064,False
+B: TF-IDF + Logistic Regression,phishing,4,remove,3.6117,False
+B: TF-IDF + Logistic Regression,phishing,5,email,3.5607,False
+B: TF-IDF + Logistic Regression,phishing,6,2005,3.4493,True
+B: TF-IDF + Logistic Regression,phishing,7,2004,3.0008,True
+B: TF-IDF + Logistic Regression,phishing,8,online,2.9125,False
+B: TF-IDF + Logistic Regression,phishing,9,life,2.9123,False
+B: TF-IDF + Logistic Regression,phishing,10,save,2.8933,False
+B: TF-IDF + Logistic Regression,phishing,11,site,2.7771,False
+B: TF-IDF + Logistic Regression,phishing,12,best,2.6597,False
+B: TF-IDF + Logistic Regression,phishing,13,company,2.6421,False
+B: TF-IDF + Logistic Regression,phishing,14,low,2.5415,False
+B: TF-IDF + Logistic Regression,phishing,15,spamassassin sightings,2.4905,True
+B: TF-IDF + Logistic Regression,phishing,16,info,2.4538,False
+B: TF-IDF + Logistic Regression,phishing,17,software,2.4538,False
+B: TF-IDF + Logistic Regression,phishing,18,offer,2.4508,False
+B: TF-IDF + Logistic Regression,phishing,19,reply,2.4361,False
+B: TF-IDF + Logistic Regression,phishing,20,hello,2.4263,False
+B: TF-IDF + Logistic Regression,safe,1,enron,-7.2431,True
+B: TF-IDF + Logistic Regression,safe,2,language,-4.4899,False
+B: TF-IDF + Logistic Regression,safe,3,thanks,-4.3154,False
+B: TF-IDF + Logistic Regression,safe,4,2002,-4.3071,True
+B: TF-IDF + Logistic Regression,safe,5,wrote,-4.0557,False
+B: TF-IDF + Logistic Regression,safe,6,university,-4.0299,False
+B: TF-IDF + Logistic Regression,safe,7,2001,-3.5306,True
+B: TF-IDF + Logistic Regression,safe,8,linguistics,-3.4908,False
+B: TF-IDF + Logistic Regression,safe,9,attached,-3.4158,False
+B: TF-IDF + Logistic Regression,safe,10,vince,-3.3957,True
+B: TF-IDF + Logistic Regression,safe,11,edu,-3.3756,False
+B: TF-IDF + Logistic Regression,safe,12,2000,-2.9569,True
+B: TF-IDF + Logistic Regression,safe,13,url,-2.8445,True
+B: TF-IDF + Logistic Regression,safe,14,louise,-2.8392,True
+B: TF-IDF + Logistic Regression,safe,15,url http,-2.7192,True
+B: TF-IDF + Logistic Regression,safe,16,english,-2.7144,False
+B: TF-IDF + Logistic Regression,safe,17,date,-2.5424,False
+B: TF-IDF + Logistic Regression,safe,18,713,-2.5316,True
+B: TF-IDF + Logistic Regression,safe,19,languages,-2.5184,False
+B: TF-IDF + Logistic Regression,safe,20,research,-2.4629,False
+"B2: TF-IDF + LR, artifacts removed",phishing,1,click,4.4906,False
+"B2: TF-IDF + LR, artifacts removed",phishing,2,free,4.4822,False
+"B2: TF-IDF + LR, artifacts removed",phishing,3,money,4.1679,False
+"B2: TF-IDF + LR, artifacts removed",phishing,4,remove,3.901,False
+"B2: TF-IDF + LR, artifacts removed",phishing,5,email,3.4437,False
+"B2: TF-IDF + LR, artifacts removed",phishing,6,save,3.2237,False
+"B2: TF-IDF + LR, artifacts removed",phishing,7,online,3.0981,False
+"B2: TF-IDF + LR, artifacts removed",phishing,8,life,3.0839,False
+"B2: TF-IDF + LR, artifacts removed",phishing,9,site,2.9352,False
+"B2: TF-IDF + LR, artifacts removed",phishing,10,software,2.8397,False
+"B2: TF-IDF + LR, artifacts removed",phishing,11,hello,2.7541,False
+"B2: TF-IDF + LR, artifacts removed",phishing,12,best,2.6939,False
+"B2: TF-IDF + LR, artifacts removed",phishing,13,offer,2.6713,False
+"B2: TF-IDF + LR, artifacts removed",phishing,14,low,2.6635,False
+"B2: TF-IDF + LR, artifacts removed",phishing,15,reply,2.6083,False
+"B2: TF-IDF + LR, artifacts removed",phishing,16,removed,2.5743,False
+"B2: TF-IDF + LR, artifacts removed",phishing,17,viagra,2.5334,False
+"B2: TF-IDF + LR, artifacts removed",phishing,18,want,2.5329,False
+"B2: TF-IDF + LR, artifacts removed",phishing,19,meds,2.5227,False
+"B2: TF-IDF + LR, artifacts removed",phishing,20,quality,2.5207,False
+"B2: TF-IDF + LR, artifacts removed",safe,1,wrote,-5.0187,False
+"B2: TF-IDF + LR, artifacts removed",safe,2,thanks,-4.7493,False
+"B2: TF-IDF + LR, artifacts removed",safe,3,language,-4.2808,False
+"B2: TF-IDF + LR, artifacts removed",safe,4,date,-4.0062,False
+"B2: TF-IDF + LR, artifacts removed",safe,5,university,-3.9679,False
+"B2: TF-IDF + LR, artifacts removed",safe,6,attached,-3.8449,False
+"B2: TF-IDF + LR, artifacts removed",safe,7,pm,-3.6773,False
+"B2: TF-IDF + LR, artifacts removed",safe,8,com click,-3.5128,False
+"B2: TF-IDF + LR, artifacts removed",safe,9,edu,-3.45,False
+"B2: TF-IDF + LR, artifacts removed",safe,10,click date,-3.4304,False
+"B2: TF-IDF + LR, artifacts removed",safe,11,linguistics,-3.371,False
+"B2: TF-IDF + LR, artifacts removed",safe,12,users,-3.0192,False
+"B2: TF-IDF + LR, artifacts removed",safe,13,cc,-2.9943,False
+"B2: TF-IDF + LR, artifacts removed",safe,14,meeting,-2.758,False
+"B2: TF-IDF + LR, artifacts removed",safe,15,www com,-2.6974,False
+"B2: TF-IDF + LR, artifacts removed",safe,16,research,-2.6212,False
+"B2: TF-IDF + LR, artifacts removed",safe,17,english,-2.609,False
+"B2: TF-IDF + LR, artifacts removed",safe,18,questions,-2.5674,False
+"B2: TF-IDF + LR, artifacts removed",safe,19,linux,-2.5456,False
+"B2: TF-IDF + LR, artifacts removed",safe,20,forwarded,-2.4089,False
