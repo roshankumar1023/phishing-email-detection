@@ -1,0 +1,2 @@
+-- Phishing email analysis: SQL queries (SQLite)
+-- Queries are added in Stage 2.
