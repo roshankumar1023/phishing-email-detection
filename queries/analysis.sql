@@ -72,9 +72,9 @@ ORDER BY urgency_score DESC, bait_score DESC, email_id;
 
 
 -- Query 3: "Evasive" phishing
--- Phishing emails with no urgency phrases, no links, and no IP links: the ones a
--- keyword/URL rule filter has nothing to catch. Reported as a count and as a
--- percentage of all phishing emails.
+-- Phishing emails with no urgency phrases, no links, and no IP links, i.e. none
+-- of the classic red flags. Reported as a count and as a percentage of all
+-- phishing emails.
 SELECT
     SUM(CASE WHEN urgency_score = 0 AND url_count = 0 AND has_ip_url = 0
              THEN 1 ELSE 0 END)                                       AS evasive_count,
